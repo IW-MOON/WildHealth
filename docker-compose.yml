@@ -8,8 +8,7 @@ services:
     volumes:
       - ./nginx/conf.d/nginx.conf:/etc/nginx/nginx.conf # nginx 설정 파일 volume 맵핑
       - ./nginx/conf.d/app.conf:/etc/nginx/app.conf # nginx 설정 파일 volume 맵핑
-    depends_on:
-      - springboot
+
   springboot:
     build:
       context: ./ # 빌드할 Dockerfile이 위치한 경로
