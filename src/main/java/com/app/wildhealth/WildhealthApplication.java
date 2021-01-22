@@ -11,4 +11,24 @@ public class WildhealthApplication {
 		SpringApplication.run(WildhealthApplication.class, args);
 	}
 
+
+	void output5(){
+
+	}
+
+	void output4(){
+
+	}
+
+	void output3(){
+
+	}
+	void output2(){
+
+	}
+
+	void output1(){
+
+	}
+
 }
