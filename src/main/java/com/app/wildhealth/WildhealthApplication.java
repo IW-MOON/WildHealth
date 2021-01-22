@@ -9,6 +9,8 @@ public class WildhealthApplication {
 	//dfsfdf
 	public static void main(String[] args) {
 		SpringApplication.run(WildhealthApplication.class, args);
+
+		System.out.println("welcome");
 	}
 
 
